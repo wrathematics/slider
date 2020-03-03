@@ -1,0 +1,16 @@
+CXX_STD = CXX14
+
+PKG_CPPFLAGS = -I./cnpy
+
+CNPY_OBJS = cnpy/cnpy.o
+SLIDE_OBJS = SLIDE/Bucket.o SLIDE/DensifiedMinhash.o SLIDE/DensifiedWtaHash.o \
+	SLIDE/Layer.o SLIDE/LSH.o SLIDE/main.o SLIDE/MurmurHash.o SLIDE/Network.o \
+	SLIDE/Node.o SLIDE/srp.o SLIDE/WtaHash.o
+R_OBJS = slide.o slide_native.o 
+
+OBJECTS = $(CNPY_OBJS) $(SLIDE_OBJS) $(R_OBJS)
+
+
+all: $(SHLIB)
+
+$(SHLIB): $(OBJECTS)
