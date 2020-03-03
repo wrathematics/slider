@@ -1,0 +1,15 @@
+Package: slider
+Type: Package
+Title: TODO
+Version: 0.1-0
+Description: TODO
+License: BSL-1.0
+SystemRequirements: C++14
+Depends:
+    R (>= 3.6.0)
+ByteCompile: yes
+Authors@R: c(
+    person("Drew", "Schmidt", role=c("aut", "cre"), email="wrathematics@gmail.com")
+    )
+Maintainer: Drew Schmidt <wrathematics@gmail.com>
+RoxygenNote: 7.0.2
