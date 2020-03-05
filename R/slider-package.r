@@ -1,6 +1,6 @@
 #' slider-package
 #' 
-#' TODO
+#' R bindings for the the Sub-LInear Deep learning Engine (SLIDE) library.
 #' 
 #' @name slider-package
 #' @docType package

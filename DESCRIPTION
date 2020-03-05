@@ -1,10 +1,13 @@
 Package: slider
 Type: Package
-Title: TODO
+Title: SLIDE for R
 Version: 0.1-0
-Description: TODO
+Description: R bindings for the the Sub-LInear Deep learning Engine (SLIDE)
+    library.
 License: BSL-1.0
-SystemRequirements: C++14
+Copyright: See 'slider/src/cnpy/LICENSE' for the files in 'src/cnpy/', and
+    'slider/src/SLIDE/LICENSE' for the files in 'src/SLIDE/'.
+SystemRequirements: C++11
 Depends:
     R (>= 3.5.0)
 Imports:

@@ -5,7 +5,7 @@
 \alias{slider-package}
 \title{slider-package}
 \description{
-TODO
+R bindings for the the Sub-LInear Deep learning Engine (SLIDE) library.
 }
 \author{
 Drew Schmidt \email{wrathematics AT gmail.com}
