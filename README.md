@@ -7,6 +7,11 @@
 
 R bindings for the [the Sub-LInear Deep learning Engine (SLIDE) library](https://github.com/keroro824/HashingDeepLearning). Also includes a copy of [cnpy](https://github.com/rogersce/cnpy).
 
+Copyrights/licenses of included code:
+
+* [cnpy](src/cnpy/LICENSE)
+* [SLIDE](src/SLIDE/LICENSE)
+
 
 ## Installation
 
