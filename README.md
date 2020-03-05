@@ -9,8 +9,9 @@ R bindings for the [the Sub-LInear Deep learning Engine (SLIDE) library](https:/
 
 Copyrights/licenses of included code:
 
-* [cnpy](src/cnpy/LICENSE)
-* [SLIDE](src/SLIDE/LICENSE)
+* [cnpy](src/cnpy/LICENSE) (MIT)
+* [SLIDE](src/SLIDE/LICENSE) (MIT)
+* Package code (BSL)
 
 
 ## Installation
